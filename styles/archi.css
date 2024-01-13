@@ -2,6 +2,11 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
+/*.text-light-gray{
+    color:#727272 ;
+    font-size: 16px;
+    font-weight:400 ;
+}*/
 header{
     
     background: rgba(255, 144, 14, 0.10);
@@ -78,4 +83,38 @@ padding: 20px 25px;
         flex-direction: column;
     }
     
+}
+main{
+    max-width: 1440px;
+    margin: 70px auto;
+}
+.teams-container{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:24px
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+.teams-title{
+ font-size: 45px;
+}
+.teams-title .list-one{
+    color: #727272;
+    font-weight: 500;
+}
+.teams-title .list-two{
+    color: #131313;
+    font-weight: 700;
+}
+.teams-title .list-three{
+    color: #FF900E;
+    font-weight: 700;
 }
